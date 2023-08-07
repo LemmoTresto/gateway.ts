@@ -141,7 +141,7 @@ An example is shown here:
 ```typescript
 export class CorsPolicy extends ResponsePolicy<{ origin: string, methods: string[], headers: string[] }, Response> {
     async transform(response: Response): Promise<Response> {
-        return PolicyResult.response(new Response(response.body, {
+        return PolicyResult.response<Response>(new Response(response.body, {
             ...response,
             headers: {
                 ...response.headers,
