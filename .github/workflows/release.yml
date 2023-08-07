@@ -1,0 +1,35 @@
+  on:
+    push:
+      branches:
+        - master
+
+  jobs:
+    release:
+      runs-on: ubuntu-latest
+      name: Build & Release
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v3
+
+        - name: Setup NPM
+          uses: actions/setup-node@v3
+          with:
+            node-version: 18
+
+        - run: corepack enable
+        - uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3.7.0
+          with:
+            node-version: 20
+            cache: "pnpm"
+
+        - name: Install dependencies
+          run: pnpm install
+
+        - name: Build
+          run: pnpm build
+
+        - name: Publish to NPM
+          run: npm run publish
+          env:
+            NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+

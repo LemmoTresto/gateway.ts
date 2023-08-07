@@ -1,0 +1,22 @@
+{
+  "extends": ["@tsconfig/strictest/tsconfig"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "sourceMap": true,
+    "lib": ["esnext", "WebWorker"],
+    "rootDir": "src",
+    "outDir": "lib",
+    "declaration": true,
+    "baseUrl": "src",
+    "paths": {
+        "@*": ["*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

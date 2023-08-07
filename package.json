@@ -1,0 +1,63 @@
+{
+  "name": "gateway.ts",
+  "description": "A simple gateway for your microservices.",
+  "keywords": [
+    "api",
+    "gateway",
+    "http",
+    "ratelimit",
+    "microservices",
+    "typescript",
+    "typed",
+    "cloudflare",
+    "worker"
+  ],
+  "author": "Max Berkelmans",
+  "version": "0.0.1",
+  "license": "LGPL-3.0-or-later",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LemmoTresto/gateway.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/LemmoTresto/gateway.ts/issues"
+  },
+  "homepage": "https://github.com/LemmoTresto/gateway.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.1",
+    "typescript": "^5.1.6"
+  },
+  "exports": {
+    ".":  {
+      "default": "./lib/index.js",
+      "import": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    },
+    "./matchers": {
+      "default": "./lib/matchers/index.js",
+      "import": "./lib/matchers/index.js",
+      "types": "./lib/matchers/index.d.ts"
+    },
+    "./origins": {
+      "default": "./lib/origins/index.js",
+      "import": "./lib/origins/index.js",
+      "types": "./lib/origins/index.d.ts"
+    },
+    "./policies": {
+      "default": "./lib/policies/index.js",
+      "import": "./lib/policies/index.js",
+      "types": "./lib/policies/index.d.ts"
+    }
+  }
+}
