@@ -1,1 +1,1 @@
-export {SubdomainMatcher} from "./subdomain"
+export { SubdomainMatcher } from './subdomain'

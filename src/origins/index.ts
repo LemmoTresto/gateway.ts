@@ -1,1 +1,1 @@
-export {UrlOrigin} from "./url";
+export { UrlOrigin } from './url'
