@@ -1,4 +1,8 @@
 # Gateway.ts
+![npm](https://img.shields.io/npm/v/gateway.ts?style=for-the-badge&logo=npm)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/LemmoTresto/gateway.ts/release.yml?style=for-the-badge&logo=github)
+
+
 
 ## A simple gateway for your microservices.
 
