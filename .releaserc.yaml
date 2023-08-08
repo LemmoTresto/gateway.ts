@@ -1,0 +1,10 @@
+branch: master
+ci: true
+repositoryUrl: "https://github.com/LemmoTresto/gateway.ts.git"
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - "@semantic-release/changelog"
+  - "@semantic-release/npm"
+  - "@semantic-release/git"
+  - "@semantic-release/github"

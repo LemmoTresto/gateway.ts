@@ -69,7 +69,7 @@ export default {
 ### Concepts
 
 In this section we will go over the concepts used in this library.
-All concepts have tje RequestType, ResponseType and Args generic types, there are not required.
+All concepts have the RequestType, ResponseType and Args generic types, these are not required.
 However, if you use custom types in your Gateway and you have unexpected errors without the generic types filled in your custom classes I suggest adding them.
 
 #### Matchers
