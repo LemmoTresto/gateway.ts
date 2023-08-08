@@ -21,8 +21,8 @@ interface RouteOptions {
 export class Route {
   matcher: Matcher<any>
   origin: Origin<any>
-  requestPolicies: RequestPolicy<any, any, any>[] = []
-  responsePolicies: ResponsePolicy<any, any>[] = []
+  requestPolicies: RequestPolicy<any, any, any>[];
+  responsePolicies: ResponsePolicy<any, any>[];
 
   constructor({ matcher, origin, policies }: RouteOptions) {
     if (matcher instanceof Matcher) {
