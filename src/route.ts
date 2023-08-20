@@ -7,6 +7,7 @@ import {
   IRequest,
   IResponse,
 } from './helpers'
+// noinspection ES6PreferShortImport
 import { PathMatcher } from './matchers/path'
 
 interface RouteOptions {
