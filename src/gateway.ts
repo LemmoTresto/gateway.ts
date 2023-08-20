@@ -1,12 +1,12 @@
-import { Route } from '@route'
-import { RequestPolicy, ResponsePolicy } from '@policy'
+import { Route } from 'route'
+import { RequestPolicy, ResponsePolicy } from 'policy'
 import {
   applyRequestPolicies,
   applyResponsePolicies,
   IRequest,
   IResponse,
-} from '@helpers'
-import { Origin } from '@origin'
+} from 'helpers'
+import { Origin } from 'origin'
 
 export class Gateway<
   RequestType extends IRequest = IRequest,

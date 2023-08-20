@@ -9,9 +9,6 @@
     "outDir": "lib",
     "declaration": true,
     "baseUrl": "src",
-    "paths": {
-        "@*": ["*"]
-    }
   },
   "include": [
     "src/**/*"
