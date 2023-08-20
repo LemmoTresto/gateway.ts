@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/LemmoTresto/gateway.ts/compare/v1.0.2...v1.0.3) (2023-08-20)
+
+
+### Bug Fixes
+
+* import paths ([16dc511](https://github.com/LemmoTresto/gateway.ts/commit/16dc5112b15cb8b5fc93fe0a7234a7d52202fe34))
+* shortened imports ([0f4c9e1](https://github.com/LemmoTresto/gateway.ts/commit/0f4c9e17805f8be208f3495d164abc203cafbe09))
+* shortened imports ([caca5ea](https://github.com/LemmoTresto/gateway.ts/commit/caca5eacd8026b031be1c2901dae4d00d923d7dd))
+
 ## [1.0.2](https://github.com/LemmoTresto/gateway.ts/compare/v1.0.1...v1.0.2) (2023-08-20)
 
 
