@@ -1,4 +1,4 @@
-import { IRequest, IResponse } from '@helpers'
+import { IRequest, IResponse } from 'helpers'
 
 export abstract class RequestPolicy<
   Options extends Record<string, unknown> | undefined,
