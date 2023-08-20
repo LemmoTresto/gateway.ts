@@ -1,13 +1,13 @@
-import { Origin } from 'origin'
-import { Matcher } from 'matcher'
-import { RequestPolicy, ResponsePolicy } from 'policy'
+import { Origin } from './origin'
+import { Matcher } from './matcher'
+import { RequestPolicy, ResponsePolicy } from './policy'
 import {
   applyRequestPolicies,
   applyResponsePolicies,
   IRequest,
   IResponse,
-} from 'helpers'
-import { PathMatcher } from 'matchers/path'
+} from './helpers'
+import { PathMatcher } from './matchers'
 
 interface RouteOptions {
   matcher: Matcher<any> | string

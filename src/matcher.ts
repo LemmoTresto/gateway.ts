@@ -1,4 +1,4 @@
-import { IRequest } from 'helpers'
+import { IRequest } from './helpers'
 
 export abstract class Matcher<
   Options extends Record<string, unknown> | undefined,

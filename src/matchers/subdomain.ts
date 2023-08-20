@@ -1,5 +1,5 @@
-import { Matcher } from 'matcher'
-import { IRequest } from 'helpers'
+import { Matcher } from '../matcher'
+import { IRequest } from '../helpers'
 
 export class SubdomainMatcher extends Matcher<{ subdomain: string }> {
   async match(request: IRequest): Promise<boolean> {

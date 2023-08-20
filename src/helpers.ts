@@ -1,4 +1,4 @@
-import { PolicyResult, RequestPolicy, ResponsePolicy } from 'policy'
+import { PolicyResult, RequestPolicy, ResponsePolicy } from './policy'
 
 export async function applyRequestPolicies<
   RequestType extends IRequest,
