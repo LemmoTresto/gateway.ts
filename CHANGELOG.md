@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/LemmoTresto/gateway.ts/compare/v1.0.1...v1.0.2) (2023-08-20)
+
+
+### Bug Fixes
+
+* forgot an import in policy. ([a0eca68](https://github.com/LemmoTresto/gateway.ts/commit/a0eca6879ec297edf86c800df66f9029bf657637))
+* get rid of ts paths option and add PathMatcher as an export. ([8623815](https://github.com/LemmoTresto/gateway.ts/commit/862381508ca844139b040caf1412569765c5d0a4))
+
 ## [1.0.1](https://github.com/LemmoTresto/gateway.ts/compare/v1.0.0...v1.0.1) (2023-08-08)
 
 
