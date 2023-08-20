@@ -7,7 +7,7 @@ import {
   IRequest,
   IResponse,
 } from './helpers'
-import { PathMatcher } from './matchers'
+import { PathMatcher } from './matchers/path'
 
 interface RouteOptions {
   matcher: Matcher<any> | string
