@@ -86,9 +86,9 @@ export class Gateway<
     return await Promise.any(
       this.routes.map(async (route) => {
         if (await route.matches(request, args)) return route
-        else return null
+        return Promise.reject();
       })
-    )
+    ).catch(() => null)
   }
 }
 
