@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/LemmoTresto/gateway.ts/compare/v1.0.3...v1.0.4) (2023-08-26)
+
+
+### Bug Fixes
+
+* remove semi colon ([0af5e51](https://github.com/LemmoTresto/gateway.ts/commit/0af5e51da40f59e44884b9c0dbd467c33602a9ee))
+* route matching not working due to returning null and not a rejected promise ([2678899](https://github.com/LemmoTresto/gateway.ts/commit/267889901d9de14c86b9ffbff0efa1e92c85d35b))
+
 ## [1.0.3](https://github.com/LemmoTresto/gateway.ts/compare/v1.0.2...v1.0.3) (2023-08-20)
 
 
